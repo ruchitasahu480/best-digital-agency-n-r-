@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    /* border: 2px solid black; */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    /* The z-index property specifies the stack order of an element.
+
+An element with greater stack order is always in front of an element with a lower stack order.
+
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+ */
+}
+
+.navbar{
+    /* border: 3px solid black; */
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    /* border: 3px solid black; */
+height:40px ;
+padding-left: 20px;
+}
+.navbar-nav li{
+    /* border: 3px solid black; */
+margin: 0 10px;
+
+}
+.navbar-nav li a{
+color: white !important;
+font-weight: 600;
+float: right;
+/* text-align: center; */
+
+}
+.fa-solid{
+    color: white;
+    font-size: 300 !important;
+}
+
+.navbar-toggler{
+    /* border: 3px solid black; */
+    /* outline: none !important; */
+}
+
+/* ----------banner section---------- */
+#banner{
+    /* border: 3px solid black; */
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+    padding-top: 5%;
+   
+}
+#banner .column{
+display: flex;
+}
+/* the below col-md-6 just for my understanding purpose*/
+.col-md-6{
+/* border: 2px solid black; */
+}
+.promo-title{
+    /* border: 2px solid black; */
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn{
+    /* border: 2px solid black; */
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    /* border: 2px solid black; */
+
+text-decoration: none;
+color: white;
+}
+#banner .image-fluid{
+    /* border: 2px solid red; */
+    width: 538px;
+    height: 450px;
+}
+.bottom-img{
+    width: 100%;
+}
+
+/* -------------------------------services section------------------- */
+#services{
+    /* border: 3px solid black; */
+    padding: 80px 0;
+}
+/* the below col-md-6 just for my understanding purpose*/
+.col-md-4{
+    /* border: 2px solid black; */
+    }
+    #services .container{
+    /* border: 2px solid black; */
+    text-align: center;
+    }
+.services-img{
+    /* border: 3px solid black; */
+    width: 100px;
+    margin-top: 20px;
+}
+.services{
+    padding: 20px;
+}
+#services .column{
+display: flex;
+text-align: center;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+#services h1{
+    text-align: center;
+}
+.title::before{
+    /* border: 2px solid black; */
+
+    content: '';
+    display: block;
+    background: #7b1798;
+    height: 5px;
+    width: 236px;
+    margin: 0 auto;
+    transform: translateY(68px);
+/*translateY(y)	Defines a translation, using only the value for the Y-axis*/
+}
+.title::after{
+    /* border: 2px solid black; */
+    content: '';
+    display: block;
+background: #7b1798;
+height: 10px;
+width: 50px;
+margin: 0 auto;
+/* transform: translateY(-5px);  */
+}
+#services .btn-primary{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+}
+
+/* -------------------------about us--------------------------- */
+#about-us{
+    /* border: 3px solid black; */
+    
+}
+#about-us .container{
+    text-align: center;
+    margin-top: 69px;
+    margin-bottom: 66px;
+    /* border: 3px solid black; */
+}
+#about-us .column1{
+    /* border: 3px solid black; */
+    text-align: left;
+    margin: 69px 79px 47px 30px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+#about-us h1{
+    /* border: 3px solid black; */
+    padding-top: 70px;
+}
+
+#about-us .column1 h5{
+   
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+#about-us .column2{
+    /* border: 3px solid black; */
+   margin-top: 69px;
+
+}
+#about-us .column2 img{
+    width: 600px;
+    height: 500px;
+}
+#about-us .inside-container{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+#about-us h1::after{
+    /* border: 2px solid black; */
+
+    content: '';
+    display: block;
+    background: #7b1798;
+    height: 5px;
+    width: 236px;
+    margin: 0 auto;
+    transform: translateY(0px);
+/*translateY(y)	Defines a translation, using only the value for the Y-axis*/
+}
+#about-us h1::before{
+    /* border: 2px solid black; */
+    content: '';
+    display: block;
+background: #7b1798;
+height: 10px;
+width: 50px;
+margin: 0 auto;
+transform: translateY(67px);
+}
+
+
+/* -------------------testimonial-------------------- */
+#testimonial{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+
+}
+#testimonial .container{
+    /* border: 2px solid black; */
+    text-align: center;
+   margin-top: 102px;
+    
+}
+#testimonial .columns{
+    /* border: 2px solid black; */
+
+    display: inline-flex;
+        justify-content: center;
+     margin-top: 74px;
+
+}
+#testimonial h1{
+    /* border: 3px solid black; */
+    padding-top: 70px;
+}
+#testimonial h1::after{
+    /* border: 2px solid black; */
+
+    content: '';
+    display: block;
+    background: #7b1798;
+    height: 5px;
+    width: 236px;
+    margin: 0 auto;
+    transform: translateY(0px);
+/*translateY(y)	Defines a translation, using only the value for the Y-axis*/
+}
+#testimonial h1::before{
+    /* border: 2px solid black; */
+    content: '';
+    display: block;
+background: #7b1798;
+height: 10px;
+width: 50px;
+margin: 0 auto;
+transform: translateY(67px);
+}
+
+#testimonial .col-lg-4{
+    /* border: 2px solid black; */
+    text-align: left;
+}
+#testimonial .designation-part{
+    display: inline;
+    /* border: 2px solid black; */
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#testimonial .user-details{
+    /* border: 2px solid black; */
+    display: inline-block;
+    /* padding-top: 10px; */
+    font-size: 15px;
+    /* margin: 10px 0;  */
+}
+ .vertical-border {
+    border-left: 6px solid #7b1798;
+    height: 197px;
+   
+}
+
+
+/* ----------------------------social media sectionsection-------------------------- */
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p{
+    /* border: 2px solid black; */
+font-size: 36px;
+font-weight: 600;
+margin-bottom: 30px;
+padding-top: 50px;
+
+}
+.social-icons img{
+    /* border: 2px solid black; */
+
+    width: 60px;
+transition: 0.5s;
+}
+.social-icons img:hover {
+    transform: translateY(-10px);
+}
+
+/* -------------------footer section----------------- */
+#footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+}
+.footer-img{
+   
+
+    width: 100%;
+}
+.footer-box h5{
+    margin-bottom: 20px;
+}
+.footer-box img{
+    height: 30px;
+    margin-bottom: 20px;
+}
+.spacing p{
+    margin-bottom: 3px;
+}
+.footer-box button{
+    margin-top: 20px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+    border-radius: 4px;
+    
+}
+.footer-box input{
+    border-radius: 5px;
+    outline: none;
+}
+.footer-box{
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+
+.horizontal-line p{
+    /* border: 2px solid black; */
+text-align: center;
+margin-bottom: 0;
+padding-bottom: 10px;
+}
